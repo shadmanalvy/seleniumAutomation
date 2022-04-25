@@ -10,4 +10,15 @@
       </class> <!-- base.bookHotelTest -->
     </classes>
   </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="base.bookHotelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="findHotel"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- base.bookHotelTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
